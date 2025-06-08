@@ -1,0 +1,3 @@
+# --- Data and Model Files ---
+# Ignore the raw and processed data folders. Data should not be stored in Git.
+data/
