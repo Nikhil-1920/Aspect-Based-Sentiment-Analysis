@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+torch
+transformers
+nltk
+spacy
+tqdm
+joblib
+matplotlib
+tabulate
+seaborn
+colorama
+wordcloud
+streamlit
+Flask
+Flask-Cors

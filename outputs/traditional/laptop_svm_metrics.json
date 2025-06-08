@@ -1,0 +1,134 @@
+{
+  "training": {
+    "training_accuracy": 0.9335981838819524,
+    "training_precision_macro": 0.9502684118463116,
+    "training_recall_macro": 0.8817128314255539,
+    "training_f1_macro": 0.9026288518865492,
+    "training_confusion_matrix": [
+      [
+        772,
+        2,
+        0
+      ],
+      [
+        1,
+        662,
+        0
+      ],
+      [
+        70,
+        44,
+        211
+      ]
+    ],
+    "training_formatted_confusion_matrix": [
+      [
+        "Actual/Predicted",
+        "positive",
+        "negative",
+        "neutral"
+      ],
+      [
+        "positive",
+        772,
+        2,
+        0
+      ],
+      [
+        "negative",
+        1,
+        662,
+        0
+      ],
+      [
+        "neutral",
+        70,
+        44,
+        211
+      ]
+    ],
+    "training_per_class_metrics": {
+      "positive": {
+        "precision": 0.9157769869513642,
+        "recall": 0.9974160206718347,
+        "f1": 0.9548546691403835
+      },
+      "negative": {
+        "precision": 0.9350282485875706,
+        "recall": 0.9984917043740573,
+        "f1": 0.9657184536834428
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 0.6492307692307693,
+        "f1": 0.7873134328358209
+      }
+    }
+  },
+  "validation": {
+    "validation_accuracy": 0.6568181818181819,
+    "validation_precision_macro": 0.6216573472170082,
+    "validation_recall_macro": 0.5513197391047753,
+    "validation_f1_macro": 0.5221432288355735,
+    "validation_confusion_matrix": [
+      [
+        149,
+        35,
+        4
+      ],
+      [
+        35,
+        134,
+        1
+      ],
+      [
+        30,
+        46,
+        6
+      ]
+    ],
+    "validation_formatted_confusion_matrix": [
+      [
+        "Actual/Predicted",
+        "positive",
+        "negative",
+        "neutral"
+      ],
+      [
+        "positive",
+        149,
+        35,
+        4
+      ],
+      [
+        "negative",
+        35,
+        134,
+        1
+      ],
+      [
+        "neutral",
+        30,
+        46,
+        6
+      ]
+    ],
+    "validation_per_class_metrics": {
+      "positive": {
+        "precision": 0.6962616822429907,
+        "recall": 0.7925531914893617,
+        "f1": 0.7412935323383085
+      },
+      "negative": {
+        "precision": 0.6232558139534884,
+        "recall": 0.788235294117647,
+        "f1": 0.6961038961038961
+      },
+      "neutral": {
+        "precision": 0.5454545454545454,
+        "recall": 0.07317073170731707,
+        "f1": 0.12903225806451613
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+ERROR ANALYSIS REPORT FOR RESTAURANT DOMAIN
+======================================================================
+
+This report is a placeholder. The detailed, colored output is available in the terminal.
+To generate a full text report, the print statements in the script would need to be redirected.
